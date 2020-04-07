@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "cleanUrls": true,
+    "public": "/",
+    "site": "graphite-writer-site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+
+    {
+      "source": "/app",
+      "destination": "https://app.graphitewriter.com/",
+      "type": 301
+    } ]
+  }
+}

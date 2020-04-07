@@ -41,16 +41,16 @@
       <div class="container">
         <br>
         <nav class="navbar is-transparent graphite">
-          <div class="navbar-brand"><img alt="" id="logoimg" onclick="window.location.href = '/index'" src="images/logo.png"></div>
+          <div class="navbar-brand"><img alt="" id="logoimg" onclick="window.location.href = '/'" src="images/logo.png"></div>
           <div class="navbar-menu graphite">
             <div class="navbar-end graphite">
               <a class="navbar-item noLine" href="/">
                 <h1 class="title is-4 navtext graphite">Home</h1></a>
-              <a class="navbar-item noLine" href="app">
+              <a class="navbar-item noLine" href="https://app.graphitewriter.com">
                 <h1 class="title is-4 navtext graphite">Docs</h1></a>
               <a class="navbar-item noLine" href="about">
                 <h1 class="title is-4 navtext graphite">About</h1></a>
-              <a class="navbar-item noLine" href="#" id="loginContainer">
+              <a class="navbar-item noLine"href="https://app.graphitewriter.com" id="loginContainer">
                 <h1 class="title is-4 navtext graphite" id="loginBtn">Login</h1></a>
             </div>
           </div>
@@ -59,7 +59,7 @@
     </div>
   </header>
   <section id="header">
-    <h1 class="title is-1">Graphite, <span id="typewriter">a modern text editor.</span></h1><a class="button noLine is-large" href="/app">START NOW</a> <a class="button noLine is-large" href="#" id="learnMore">LEARN MORE</a><br>
+    <h1 class="title is-1">Graphite, <span id="typewriter">a modern text editor.</span></h1><a class="button noLine is-large" href="https://app.graphitewriter.com">START NOW</a> <a class="button noLine is-large" href="#" id="learnMore">LEARN MORE</a><br>
   </section>
   <section class="smallContainer" id="sectiontwo">
     <div id="vcenter">
@@ -92,13 +92,13 @@
       <h1 class="title is-1">So How Much Does Graphite Cost?</h1><br>
       <h2>NOTHING</h2>
       <p>That's right, you heard us; <b>FREE, NADA, NOTHING.</b> Graphite will always be free to use for <b>Everyone.</b> As an added bonus we <b>DO NOT</b> track or sell your information.</p><br>
-      <h3>$0</h3><a class="button noLine is-large" href="/app">START NOW</a><br>
+      <h3>$0</h3><a class="button noLine is-large" href="https://app.graphitewriter.com">START NOW</a><br>
     </div>
   </section>
   <footer class="footer" id="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <p></p>
+        <p v-html="footer"></p>
       </div>
     </div>
   </footer>
@@ -125,17 +125,7 @@
       messagingSenderId: "158148550453"
     };
     firebase.initializeApp(config);
-    NProgress.configure({
-      showSpinner: false
-    });
-    var provider = new firebase.auth.GoogleAuthProvider();
-    $(document).pjax('a', 'body')
-    $(document).on('pjax:start', function() {
-      NProgress.start();
-    });
-    $(document).on('pjax:end', function() {
-      NProgress.done();
-    });
+
   </script>
   <script type="application/ld+json">
     {
@@ -158,7 +148,7 @@
   </script>
   <script src="/js/global/vue.min.js">
   </script>
-  <script charset="utf-8" src="/js/global/footer.min.js">
+  <script charset="utf-8" src="/js/global/footer.js">
   </script>
 </body>
 

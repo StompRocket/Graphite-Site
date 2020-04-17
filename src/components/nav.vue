@@ -4,7 +4,7 @@
       <img class="brand" src="../assets/wordmarkWhite.svg" alt="Graphite Writer wordmark" />
     </router-link>
     <Locale></Locale>
-    <a href="https://app.graphitewriter.com" class="btn">{{$t("loginSignup")}}</a>
+    <a :href="$store.getters.appUrl" class="btn">{{$t("loginSignup")}}</a>
   </nav>
 </template>
 

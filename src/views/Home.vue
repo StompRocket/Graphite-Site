@@ -13,11 +13,7 @@
         <h2 class="heading">{{$t("header.online")}}</h2>
         <p>{{$t("header.desc")}}</p>
         <div class="banner__row">
-          <a
-            @click="openApp"
-            href="https://app.graphitewriter.com"
-            class="btn--dark"
-          >{{$t("getStarted")}}</a>
+          <a @click="openApp" :href="$store.getters.appUrl" class="btn--dark">{{$t("getStarted")}}</a>
           <a href v-scroll-to="'#features'" class="btn--outline">{{$t("header.learnMore")}}</a>
         </div>
       </section>
@@ -90,9 +86,9 @@
       <div class="container">
         <img src="../assets/icon.svg" alt="Graphite Writer Icon" />
         <div>
-          <h1 class="heading">Speed up your text editing</h1>
-          <h2 class>Start using Graphite Writer today and forever change the way you write text.</h2>
-          <a class="btn" href="https://app.graphitewriter.com" @click="openApp">Get Started</a>
+          <h1 class="heading">{{$t("cta.title")}}</h1>
+          <h2 class>{{$t("cta.tagline")}}</h2>
+          <a class="btn" :href="$store.getters.appUrl" @click="openApp">{{$t("getStarted")}}</a>
         </div>
       </div>
     </div>

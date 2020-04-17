@@ -38,6 +38,13 @@
 import Locale from "@/components/locale.vue";
 export default {
   name: "App",
-  components: { Locale }
+  components: { Locale },
+  mounted() {
+    console.log(localStorage.getItem("local"));
+    if (localStorage.getItem("local")) {
+      this.$i18n.locale = localStorage.getItem("local");
+      this.$store.commit("urlLang", this.$i18n.locale);
+    }
+  }
 };
 </script>

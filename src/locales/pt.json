@@ -1,0 +1,52 @@
+{
+	"cta": {
+		"tagline": "Comece a usar o Graphite Writer hoje e mude para sempre a maneira como escreve texto.",
+		"title": "Acelere sua edição de texto"
+	},
+	"features": {
+		"openSource": {
+			"text": "O Graphite Writer é orgulhosamente um projeto de código aberto iniciado por pessoas que queriam ver um novo padrão de editor de documentos. Qualquer um pode contribuir para o seu desenvolvimento ou ver o código fonte em nosso",
+			"title": "Código aberto"
+		},
+		"people": {
+			"text": "O Graphite Writer foi projetado para facilitar o uso, não para os giros do computador. Orgulhamo-nos da acessibilidade da Graphite. Nós trabalhamos duro para oferecer suporte a vários idiomas ao Graphite Writer.",
+			"title": "Construído para pessoas"
+		},
+		"privacy": {
+			"text": "Com o Graphite Writer você não é o produto. O Graphite Writer é um projeto gratuito e de código aberto que é executado completamente em doações. Nós não vendemos suas informações pessoais.",
+			"title": "Construído para a privacidade"
+		},
+		"speed": {
+			"text": "O Graphite Writer é leve e RÁPIDO. É cronometrado até 20 segundos mais rápido que os concorrentes. Isso permite que você pule para seus documentos em vez de perder a inspiração enquanto aguarda o carregamento do software.",
+			"title": "Construído para velocidade"
+		}
+	},
+	"footer": {
+		"and": "e",
+		"created": "O Graphite Writer é criado e mantido por",
+		"legal": "Ao usar este site, você concorda com o uso de cookies e fica vinculado pelos nossos",
+		"license": "O Graphite Writer é lançado sob a licença APL-2.0. Se você está interessado em contribuir para o seu desenvolvimento, consulte nosso",
+		"privacy": "Política de Privacidade",
+		"terms": "Termos de serviço",
+		"translations": "Como o Graphite Writer é um pequeno projeto de código aberto, todas as traduções que não são em inglês são feitas com o Google Translate. Se você encontrar algum erro, informe-nos."
+	},
+	"getStarted": "Iniciar",
+	"header": {
+		"createDocuments": "Criar documentos",
+		"desc": "O Graphite Writer é um aplicativo da web de código aberto que permite escrever, editar, visualizar e compartilhar documentos de qualquer lugar.",
+		"learnMore": "Saber mais",
+		"lyrics": "Escreva músicas",
+		"notes": "Faça anotações",
+		"online": "Online Grátis",
+		"writePoems": "Escrever poemas"
+	},
+	"loginSignup": "Entrar / Inscrever-se",
+	"tagline": {
+		"header": "O Graphite Writer é",
+		"tagline": "Um editor de documentos baseado em nuvem focado em velocidade e usabilidade"
+	},
+	"updated": {
+		"text": "O Graphite Writer é frequentemente atualizado com novos recursos. Quer um recurso? Envie-nos um e-mail diretamente:",
+		"title": "Atualizado e atualizado"
+	}
+}

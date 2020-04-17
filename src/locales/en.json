@@ -1,0 +1,52 @@
+{
+	"cta": {
+		"tagline": "Start using Graphite Writer today and forever change the way you write text.",
+		"title": "Speed up your text editing"
+	},
+	"features": {
+		"openSource": {
+			"text": "Graphite Writer is proudly an open source project started by people who wanted to see a new standard of document editor. Anyone can contribute to its development or see the source code on our",
+			"title": "Open Source"
+		},
+		"people": {
+			"text": "Graphite Writer was designed for ease of use, not computer whizzes. We pride ourselves on Graphite’s accessibility. We have worked hard to bring multiple language support to Graphite Writer.",
+			"title": "Built For People"
+		},
+		"privacy": {
+			"text": "With Graphite Writer you are not the product. Graphite Writer is a free, open source project that runs completely on donations. We do not sell your personal information.",
+			"title": "Built For Privacy"
+		},
+		"speed": {
+			"text": "Graphite Writer is lightweight and FAST. It is clocked up to 20 seconds faster than competitors. This allows you to jump into your documents instead of losing inspiration while waiting for your software to load.",
+			"title": "Built For Speed"
+		}
+	},
+	"footer": {
+		"and": "and",
+		"created": "Graphite Writer is created and maintained by",
+		"legal": "By using this site you agree to our use of cookies and to be bound by our",
+		"license": "Graphite Writer is released under the APL-2.0 License. If your interested in contributing to its development check out our",
+		"privacy": "privacy policy",
+		"terms": "terms of service",
+		"translations": "Because Graphite Writer is a small open source project all non English translations are made with Google Translate. If you see any errors please let us know."
+	},
+	"getStarted": "Get Started",
+	"header": {
+		"createDocuments": "Create Documents",
+		"desc": "Graphite Writer is an open source web application that enables you to write, edit, view, and share documents from anywhere.",
+		"learnMore": "Learn More",
+		"lyrics": "Write Songs",
+		"notes": "Take Notes",
+		"online": "Online For Free",
+		"writePoems": "Write Poems"
+	},
+	"loginSignup": "Login / Sign Up",
+	"tagline": {
+		"header": "Graphite Writer is",
+		"tagline": "A cloud based document editor focused on speed and usability"
+	},
+	"updated": {
+		"text": "Graphite Writer is frequently updated with new features. Want a feature? Email us directly:",
+		"title": "Updated and Upgraded"
+	}
+}

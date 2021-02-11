@@ -4,7 +4,7 @@
       <img class="brand" src="../assets/wordmarkWhite.svg" alt="Graphite Writer wordmark" />
     </router-link>
     <Locale></Locale>
-    <a :href="$store.getters.appUrl" class="btn">{{$t("loginSignup")}}</a>
+    <a @click="openApp" :href="$store.getters.appUrl" class="btn">{{$t("loginSignup")}}</a>
   </nav>
 </template>
 
@@ -12,6 +12,11 @@
 import Locale from "@/components/locale.vue";
 export default {
   name: "Nav",
-  components: { Locale }
+  components: { Locale },
+  methods: {
+    openApp() {
+      gtag("event", "sign_up");
+    }
+  }
 };
 </script>

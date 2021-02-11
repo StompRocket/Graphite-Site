@@ -99,6 +99,7 @@
 // @ is an alias to /src
 import NavBar from "@/components/nav.vue";
 import Locale from "@/components/locale.vue";
+
 export default {
   name: "Home",
   components: {
@@ -106,7 +107,9 @@ export default {
     Locale
   },
   methods: {
-    openApp() {}
+    openApp() {
+      gtag("event", "sign_up");
+    }
   }
 };
 </script>

@@ -1,4 +1,4 @@
-# graphite-site
+# Graphite Writer Site
 
 ## Project setup
 ```
